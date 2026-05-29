@@ -111,6 +111,29 @@ export default function ContactsPage() {
             </div>
           </div>
         </div>
+
+        {/* Map */}
+        <div className="mt-10">
+          <div className="flex items-center gap-3 mb-5">
+            <div className="w-10 h-10 bg-secondary rounded-xl flex items-center justify-center flex-shrink-0">
+              <Icon name="MapPin" fallback="Circle" size={18} className="text-primary" />
+            </div>
+            <div>
+              <h3 className="font-display text-2xl font-bold text-foreground">Мы на карте</h3>
+              <p className="text-sm text-muted-foreground font-body">г. Москва, ул. Арбат, 15</p>
+            </div>
+          </div>
+          <div className="rounded-2xl overflow-hidden border border-border shadow-md" style={{ height: 420 }}>
+            <iframe
+              src="https://yandex.ru/map-widget/v1/?ll=37.590396%2C55.752023&z=16&pt=37.590396,55.752023,pm2rdm~&text=%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0%2C%20%D1%83%D0%BB.%20%D0%90%D1%80%D0%B1%D0%B0%D1%82%2C%2015&l=map"
+              width="100%"
+              height="100%"
+              style={{ border: 0 }}
+              allowFullScreen
+              title="Карта магазина Лимон"
+            />
+          </div>
+        </div>
       </div>
     </div>
   );
