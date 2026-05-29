@@ -4,40 +4,40 @@
 
 @layer base {
   :root {
-    --background: 55 100% 97%;
-    --foreground: 30 20% 12%;
+    --background: 30 60% 97%;
+    --foreground: 20 25% 10%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 30 20% 12%;
+    --card: 35 50% 99%;
+    --card-foreground: 20 25% 10%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 30 20% 12%;
+    --popover: 35 50% 99%;
+    --popover-foreground: 20 25% 10%;
 
-    --primary: 68 85% 42%;
+    --primary: 25 90% 48%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 55 95% 88%;
-    --secondary-foreground: 30 20% 12%;
+    --secondary: 35 80% 92%;
+    --secondary-foreground: 20 25% 10%;
 
-    --muted: 55 40% 92%;
-    --muted-foreground: 30 15% 45%;
+    --muted: 30 40% 93%;
+    --muted-foreground: 20 15% 46%;
 
-    --accent: 42 100% 55%;
-    --accent-foreground: 30 20% 12%;
+    --accent: 42 100% 58%;
+    --accent-foreground: 20 25% 10%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 55 30% 85%;
-    --input: 55 30% 85%;
-    --ring: 68 85% 42%;
+    --border: 30 30% 87%;
+    --input: 30 30% 87%;
+    --ring: 25 90% 48%;
 
     --radius: 0.75rem;
 
-    --lemon: 55 100% 60%;
-    --lemon-dark: 55 95% 45%;
-    --lime: 80 70% 45%;
-    --lime-light: 80 60% 90%;
+    --lemon: 42 100% 62%;
+    --lemon-dark: 38 95% 48%;
+    --lime: 25 90% 48%;
+    --lime-light: 35 80% 92%;
   }
 }
 
@@ -165,8 +165,8 @@
 .lemon-blob {
   background: radial-gradient(
     ellipse at 40% 40%,
-    hsl(55 100% 75%) 0%,
-    hsl(68 85% 60%) 60%,
+    hsl(42 100% 80%) 0%,
+    hsl(25 90% 70%) 60%,
     transparent 100%
   );
   filter: blur(60px);
@@ -176,7 +176,7 @@
 
 .search-input:focus {
   outline: none;
-  box-shadow: 0 0 0 3px hsl(68 85% 42% / 0.25);
+  box-shadow: 0 0 0 3px hsl(25 90% 48% / 0.25);
 }
 
 .cart-badge {
@@ -187,9 +187,9 @@
   width: 6px;
 }
 ::-webkit-scrollbar-track {
-  background: hsl(55 40% 92%);
+  background: hsl(30 40% 93%);
 }
 ::-webkit-scrollbar-thumb {
-  background: hsl(68 60% 65%);
+  background: hsl(25 70% 70%);
   border-radius: 3px;
 }
